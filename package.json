@@ -16,10 +16,9 @@
     "url": "https://github.com/jiaaaaaqi/smartisan/issues"
   },
   "homepage": "https://github.com/jiaaaaaqi/smartisan#readme",
-  "dependencies": {
-    "gulp": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1"
   }
