@@ -1,0 +1,26 @@
+{
+  "name": "smartisan",
+  "version": "1.0.0",
+  "description": "模仿移动端锤子科技官网",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaaaaaqi/smartisan.git"
+  },
+  "author": "jiaqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiaaaaaqi/smartisan/issues"
+  },
+  "homepage": "https://github.com/jiaaaaaqi/smartisan#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  }
+}

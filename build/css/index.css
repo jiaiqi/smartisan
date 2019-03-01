@@ -1,0 +1,155 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+html {
+  /*
+  实际像素： 750px dpr:2; 
+  逻辑像素：750px/2=375px; 
+  1vw = 1%*375px = 3.75px;
+  ? vw = 100px; ? = 100/3.75; 
+  1rem =  100/3.75 vw; 
+  rem数值应当为设计图的 px值/100/2 rem 
+  */
+  font-size: 26.66667vw;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  background-color: #666;
+}
+
+.title-bar {
+  height: .5rem;
+  background-color: #1d1d1d;
+}
+
+.title-bar .menu {
+  width: .6rem;
+  height: .5rem;
+}
+
+.slide-banner {
+  background: #fff;
+  width: 100%;
+  height: 2.6rem;
+  margin-bottom: .07rem;
+  box-shadow: 0 5px 13px rgba(0, 0, 0, 0.1);
+}
+
+.slide-banner .swiper-container {
+  margin: 0 auto;
+  padding: .14rem 0;
+  width: 3.5rem;
+  height: 1.46rem;
+}
+
+.slide-banner .swiper-container .swiper-wrapper {
+  transition-duration: 0ms;
+}
+
+.slide-banner .short-cart-con {
+  width: 100%;
+  height: .72rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.slide-banner .short-cart-con .short-cart {
+  width: 20%;
+  height: .44rem;
+}
+
+.slide-banner .short-cart-con .short-cart a {
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  font-size: .13rem;
+  color: #666;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+.slide-banner .short-cart-con .short-cart a img {
+  height: .22rem;
+  width: .22rem;
+}
+
+.slide-banner .short-cart-con .short-cart a p {
+  height: .36rem;
+  line-height: .36rem;
+  font-size: .1rem;
+  color: #666666;
+}
+
+.floor-wrap {
+  box-shadow: 0 5px 13px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.floor-wrap .floor-title {
+  height: .39rem;
+  line-height: .39rem;
+  border-bottom: 1px solid #666;
+  padding: 0 .15rem;
+  vertical-align: middle;
+}
+
+.floor-wrap .floor-title h2 {
+  font-size: .15rem;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.floor-wrap .floor-title .fr {
+  margin: .145rem 0;
+  width: 0.065rem;
+  height: .1rem;
+}
+
+.floor-wrap .floor-con ul {
+  flex-wrap: nowrap;
+  padding: 0 .15rem;
+  padding-top: .18rem;
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+}
+
+.floor-wrap .floor-con ul li {
+  margin-right: .09rem;
+}
+
+.floor-wrap .floor-con ul li .product-box a {
+  position: relative;
+  padding-top: 100%;
+}
+
+.floor-wrap .floor-con ul li .product-box a img {
+  height: 1.25rem;
+  width: 1.26rem;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
