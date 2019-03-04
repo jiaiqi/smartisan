@@ -143,6 +143,10 @@ body {
   color: #666666;
 }
 
+section {
+  width: 3.45rem;
+}
+
 .floor-wrap {
   box-shadow: 0 5px 13px rgba(0, 0, 0, 0.1);
   background-color: #fff;

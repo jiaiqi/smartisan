@@ -1,0 +1,100 @@
+section{
+    width: 90%;
+    padding: 0 .125rem;
+    overflow: scroll;
+    background-color:#dedede;
+    .block{
+        width: 3.45rem;
+        border-radius: .07rem;
+        border: 1px solid #d5d5d5;
+        background: #fff;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 2px rgba(0,0,0,.1), 0 18px 20px -10px rgba(0,0,0,.03), 0 18px 20px -10px rgba(0,0,0,.03), 0 10px 20px -10px rgba(0,0,0,.03);
+        .avatar{
+            width: 2.75rem;
+            font-size: .15rem;
+            position: relative;
+            height: .86rem;
+            line-height: .86rem;
+            left: .7rem;
+            a{
+                text-decoration: none;
+                color: #333333;
+                padding-left: 10px;
+            }
+            &::after{
+                content: ">";
+                display: inline-block;
+                position: absolute;
+                right: .32rem;
+                font-size: 20px;
+                
+                height: auto;
+            }
+            img{
+                position: absolute;
+                top: 50%;
+                left: -.6rem;
+                width: .56rem;
+                height: .56rem;
+                border-radius: 50%;
+                transform: translateY(-50%);
+            }
+            
+        } 
+        .list{
+            width: 3.25rem;
+            height: .63rem;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            position: relative;
+            h3{
+                font-size: .16rem;
+                color: #333333;
+                font-weight: 100;
+            }
+            &::before{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                content: "";
+                width: 100%;
+                height: 1px;
+                background: #f2f2f2;
+                transform: scaleY(.667);
+                transform-origin: bottom;
+            }
+            &::after{
+                content: ">";
+                display: inline-block;
+                position: absolute;
+                right: .2rem;
+                font-size: 20px;
+                width: 4px;
+                height: auto;
+            }
+        }
+
+    }
+    .menus{
+        display: flex;
+        a{
+            font-size: .09rem;
+            flex: 1;
+            text-decoration: none;
+            color: #9a9a9a;
+            height: .55rem;
+            img{
+                display: block;
+                width: .23rem;
+                height: .23rem;
+                margin: 7px auto 2px;
+            }
+            h4{
+                text-align: center;
+            }
+          }
+    }
+}

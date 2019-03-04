@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <header>
+        <a _ngcontent-c1="" class="nav-back" href="person.html">  返回</a>
+        <h1>注册 Smartisan ID</h1>
+    </header>
+    <section>
+      <input type="text" placeholder="手机号"> 
+      <input type="text" placeholder="密码"> 
+      <input type="text" placeholder="重复密码">
+      <input type="text" placeholder="验证码">
+      <p class="agreement"><span class="checkbox"><a></a></span>我已阅读并同意遵守 <span href="http://www.smartisan.com/support/#/agreement" target="_blank">法律声明</span> 和 <span href="http://www.smartisan.com/support/#/privacy" target="_blank">隐私条款</span></p>
+      <div class="btn"><a class="button">注册</a></div>
+      <p class="tologin"><a onclick="toLogin()">如果您已拥有 Smartisan ID，则可在此<span>登录</span></a></p>
+      <script>function toLogin() {
+          location.href="login.html";
+      }</script>
+    </section>
+</body>
+</html>
