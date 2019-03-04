@@ -295,15 +295,34 @@ body {
 }
 .bottom-nav{
   height:.54rem;
-  position: absolute;
+  position: fixed;
+  background-color: #fff;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 99;
-  //display: flex;
-  justify-content: space-around;
+  text-align: center;
   li{
     width: 25%;
+    float: left;
     height: 100%;
+    margin: 7px 0;
+    a{     
+      display: flex;
+      width: 100%;
+      text-decoration: none;
+      font-size: .1rem;
+      flex-direction: column;
+      img{
+        margin:0 .35rem;
+        width: .25rem;
+        height: .25rem;
+
+      }
+      span{
+        padding-top: 5px;
+        color:#757575;
+      }
+    }
   }
 }

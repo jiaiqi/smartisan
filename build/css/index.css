@@ -346,15 +346,37 @@ body {
 
 .bottom-nav {
   height: .54rem;
-  position: absolute;
+  position: fixed;
+  background-color: #fff;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 99;
-  justify-content: space-around;
+  text-align: center;
 }
 
 .bottom-nav li {
   width: 25%;
+  float: left;
   height: 100%;
+  margin: 7px 0;
+}
+
+.bottom-nav li a {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  font-size: .1rem;
+  flex-direction: column;
+}
+
+.bottom-nav li a img {
+  margin: 0 .35rem;
+  width: .25rem;
+  height: .25rem;
+}
+
+.bottom-nav li a span {
+  padding-top: 5px;
+  color: #757575;
 }
